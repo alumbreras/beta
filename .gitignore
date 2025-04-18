@@ -1,0 +1,37 @@
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+*.log
+
+# Virtual environment
+.venv/
+dist/
+build/
+*.egg-info/
+
+# Frontend (React - CRA)
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+frontend/coverage/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/.env
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# OS / Editor specific
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+backend/.venv/pyvenv.cfg
+backend/.venv/lib/python3.12/site-packages/pyasn1/type/char.py
